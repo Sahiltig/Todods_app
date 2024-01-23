@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+Steps:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.	The project basically consists of two components, Header.js and Body.js.
+2.	Header component simply contains a heading with some css added to it. 
+3.	Body component has a heading and a form.
+4.	Now, whenever we want to have a form working (able to enter the text in the provided textbox) in react, we use controlled component method.
+5.	Then in order to save the text (passing data from child component(user) to parent component) lifting state up concept in react is used.
+6.	And in order to display the entered text, mapping function of an array using dynamic variable (useState hook) is used. 
+7.	changefn and submitfn event handlers are used wherever we want to capture onChange and onSubmit events.
+8.	Functionalities are included in order to delete and edit the entered texts by using onClick event in the respective buttons.
+9.	Finally, css is given that makes the presentation quite attractive.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+User-guide:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.	Enter your task and click on ‘Add’ button. Your task gets added and you can see it with an option to ‘Delete’ and ‘Edit’ it as well.
+2.	Try to edit your task. While editing you will get a prompt to edit your task.
+3.	Try to delete your task. Task disappears if you click on ‘Delete’ button. 
+4.	Additional step – Add a task without entering anything in the text area. You will get an alert message.
