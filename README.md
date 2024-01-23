@@ -18,3 +18,6 @@ User-guide:
 2.	Try to edit your task. While editing you will get a prompt to edit your task.
 3.	Try to delete your task. Task disappears if you click on ‘Delete’ button. 
 4.	Additional step – Add a task without entering anything in the text area. You will get an alert message.
+
+   How to run:
+   npm start
